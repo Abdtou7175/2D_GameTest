@@ -3,7 +3,7 @@ from pygame.locals import KEYDOWN, K_ESCAPE, QUIT
 import math
 import random
 import time as sleep
-
+print("Github Commit Test")
 pygame.init()
 infoObject = pygame.display.Info()
 ScreenWidth = infoObject.current_w
