@@ -3,7 +3,7 @@ from pygame.locals import KEYDOWN, K_ESCAPE, QUIT
 import math
 import random
 import time as sleep
-print("Github Commit Test")
+
 pygame.init()
 infoObject = pygame.display.Info()
 ScreenWidth = infoObject.current_w
@@ -16,7 +16,7 @@ PlayerWidth = 50
 PlayerLength = 50
 x = 150
 y = (ScreenHeight/2)-PlayerLength/2
-vel = 15
+vel = 20
 direction = 0
 TargetWidth = 50
 TargetLength = 50
